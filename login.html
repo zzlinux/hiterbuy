@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎登录</title>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<script type="text/javascript" src="js/login.js"></script>
+</head>
+<body>
+	<div id="header"></div>
+	<div id="content">
+		<div id="login">
+			<div id="logo">
+				<h1>HiterBuy!</h1>
+			</div>
+			<form action="login.php" method="post">
+			        	<div class="item">
+							<label>账号:</label>
+							<input type="text" name="id" placeholder="账号/邮箱号" class="input">
+						</div>
+			        	<div class="item">
+							<label>密码:</label>
+							<input type="password" name="pwd" placeholder="请输入密码" class="input">
+						</div>
+						<div class="item">
+							<p class="rember">
+								<input type="checkbox" id="rember" name="rember">
+								<label for="rember">一周内免登录</label>
+								<a href="findpwd.php">忘记密码了</a>
+							</p>
+						</div>
+						<div class="item submit">
+							<input type="submit" value="登录">
+							<a href="register.html">
+								<input type="button" value="注册">
+							</a>	
+						</div>
+			</form>
+		</div>
+	</div>
+	<div id="footer"></div>
+</body>
+</html>
