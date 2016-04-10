@@ -1,9 +1,46 @@
+body{
+	padding:0;
+	margin:0;
+	border:solid 5px;
+	border-radius:5px;
+}
+#header{
+	height:70px;
+	border:solid 3px;
+}
+#header div{
+	width:170px;
+	height:70px;
+	padding:0 40px;
+	font-size:larger;
+	border:solid 5px;
+	
+}
+#header div a{
+	margin:0;
+}
+#footer{
+	height:40px;
+	border:solid 3px;
+}
+#content{
+	background:#FF7A69;
+	border:solid 5px;
+	height:520px;
+	position:relative;
+}
+#showing{
+	margin-left:150px;
+	margin-top:100px;
+	
+}
 #login{
+	background-color:white;
 	width:300px;
 	height:450px;
 	position:absolute;
-	top:20px;
-	left:600px;
+	top:36px;
+	left:830px;
 	border-radius:15px;
 	box-shadow:0 0 10px;
 }
@@ -11,13 +48,23 @@
 	height:80px;
 	padding:0 70px;
 }
+.check{
+	border:none;
+	width:260px;
+	height:50px;
+	margin-bottom:20px;
+	margin-left:20px;
+}
 .item{
 	width:260px;
 	height:50px;
 	border:solid 4px;
-	border-radius:3px;
+	border-radius:10px;
 	margin-bottom:20px;
 	margin-left:20px;
+}
+.check p{
+	line-height:3.5;
 }
 label{
 	display:inline-block;
@@ -33,7 +80,6 @@ label{
 .rember{
 	width:auto;
 	color:#666;
-	line-height:30px;
 }
 .rember label{
 	width:auto;
@@ -42,19 +88,27 @@ label{
 	display:inline-block;
 	float:right;
 }
-.submit input{
+.signin{
 	display:inline-block;
-	width:70px;
+	width:80px;
 	height:40px;
 	margin-left:20px;
 	font-size:larger;
+	color:white;
+	border-radius:6px;
+	background:#090404;
+	border:none;
 }
 
 .submit a input{
+	background:#FF7A69;
 	display:inline-block;
 	float:right;
-	width:70px;
+	width:80px;
 	height:40px;
 	margin-right:20px;
+}
+.fright{
+	float:right;
 }
 

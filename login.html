@@ -7,8 +7,16 @@
 	<script type="text/javascript" src="js/login.js"></script>
 </head>
 <body>
-	<div id="header"></div>
+	<div id="header">
+		<div>
+			<h1>HiterBuy!</h1>
+		</div>
+	</div>
 	<div id="content">
+		<div id="showing">
+			<h1>规格严格</h1>
+			<h1>功夫到家</h1>
+		</div>
 		<div id="login">
 			<div id="logo">
 				<h1>HiterBuy!</h1>
@@ -22,15 +30,15 @@
 							<label>密码:</label>
 							<input type="password" name="pwd" placeholder="请输入密码" class="input">
 						</div>
-						<div class="item">
+						<div class="check">
 							<p class="rember">
 								<input type="checkbox" id="rember" name="rember">
 								<label for="rember">一周内免登录</label>
 								<a href="findpwd.php">忘记密码了</a>
 							</p>
 						</div>
-						<div class="item submit">
-							<input type="submit" value="登录">
+						<div class="submit check">
+							<input type="submit" value="登录" class="signin">
 							<a href="register.html">
 								<input type="button" value="注册">
 							</a>	
@@ -38,6 +46,12 @@
 			</form>
 		</div>
 	</div>
-	<div id="footer"></div>
+	<div id="footer">
+		<span class="fright">
+			<a>关于hiterbuy</a>.
+			<a>加入我们</a>.
+			<a>帮助中心</a>
+		</span>
+	</div>
 </body>
 </html>
