@@ -1,0 +1,13 @@
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#F00; text-decoration:underline;}
+a:active{ color:#30F;}#main{background:yellow;height:600px;}
+*{margin:0;border:0;padding:0;}
+
+#container{}
+
+#head{background:url(../tupian/head.jpg);background-size:100% 100%;height:100px;}
+
+#neck{background: gray;height:30px;}
+
+li.nk{float:right;list-style:none;padding-right:50px;list-style-type:none;}
+

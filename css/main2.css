@@ -1,0 +1,23 @@
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#F00; text-decoration:underline;}
+a:active{ color:#30F;}
+
+*{margin:0;border:0;padding:0}
+
+#asb{background: gray;height:30px;}
+
+li.mine{float:right;list-style:none;padding-right:50px;list-style-type:none;}
+
+#head2{background:yellow;height:150px;}
+
+#tijiao{background:blue;height:430px;}
+
+#sth{background:orange;width:600px;height:400px;margin:0 auto}
+
+#sb{width:150px;height:400px;}
+
+li.tou{background:url(../tupian/touxiang.jpg);border-radius:50px; color: #FFFFFF;padding:50px 50px;list-style-type:none;}
+
+li.mine{float:right;font-size:25px;color:black;list-style-type:none;}
+
+p.mn{line-height:30px;}

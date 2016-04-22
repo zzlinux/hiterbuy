@@ -1,0 +1,33 @@
+a{ color:#333; text-decoration:none;}
+a:hover{ color:#F00; text-decoration:underline;}
+a:active{ color:#30F;}
+
+#main{background:yellow;height:600px;}
+
+#zhanshi{background:purple;height:150px;}
+
+#pic{background:red;text-align:center;width:70%;height:150px;float:left}
+
+#gonggao{background:blue;width:30%;height:150px;float:left}
+
+ul.gonggao{list-style-type:none;}
+
+#show{background:yellow;height:400px}
+
+#fenlei  {float:left;width:100px;height:400px;padding:50px;}
+
+li.fen{float:left;letter-spacing:4px; font-size:20px;color:black;list-style-type:none;}
+
+#daibiao  {float:left;width:450px;height:400px;padding:50px}
+
+#first,#second,#third,#forth,#fifth,#sixth {background:green;float:left;width:120px;height:130px;margin:12px;}
+
+#za  {background:white;width:200px;height:400px;padding:50px;float:left}
+
+#sou{background:orange;height:100px;border:50px}
+
+input.fabu{background:url(../tupian/2.jpg);width:100px;height:80px;}
+
+input.sou{}
+
+#xinxi{background:#CCFF33;height:300px}
