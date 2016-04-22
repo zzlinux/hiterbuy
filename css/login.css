@@ -18,6 +18,7 @@ body{
 }
 #header div a{
 	margin:0;
+	line-height:11px;
 }
 #footer{
 	height:40px;
