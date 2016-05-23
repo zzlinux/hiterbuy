@@ -31,7 +31,7 @@
 					<input type="password" name="pwd" placeholder="再次确认密码">
 				</div>
 				<div class="row">
-					<input type="submit" value="立即注册">
+					<input type="submit" value="立即注册" class="btn_large">
 				</div>
 			</form>
 		</div>

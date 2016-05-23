@@ -1,22 +1,25 @@
 #header{
 	height:70px;
+	border:solid 5px;
 }
 #content{
-	
+	height:400px;	
 }
 #content div{
-	margin:auto;
+}
+#register{
 	width:400px;
+	margin:auto;
+	border:solid 3px;
 }
 .row{
-	width:400px;
 	height:50px;
 	border:solid 5px;
-	margin-top:10px;
-	
+	margin:10px;	
 }
 
 #footer{
 	height:70px;
+	border:solid 5px;
 }
 

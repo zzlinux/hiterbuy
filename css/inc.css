@@ -7,3 +7,15 @@
 .center{
 	margin:auto;
 }
+body{
+	margin:0;
+}
+input{
+	width:200px;
+	border:0px;
+}
+.btn_large{
+	width:250px;
+	height:45px;
+	border-radius:5px;
+}
