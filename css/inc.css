@@ -14,8 +14,29 @@ input{
 	width:200px;
 	border:0px;
 }
-.btn_large{
+.btn-large{
 	width:250px;
 	height:45px;
 	border-radius:5px;
+}
+.form-item{
+	height:50px;
+	border:solid 4px;
+	border-radius:5px;
+}
+.form-item label{
+	padding-left:25px;
+}
+.form-item .field{
+	font-size:15px;
+	border:0 none;
+	width:200px;
+	height:20px;
+	padding-left:10px;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.input-tip{
+	height:35px;
+	color:red;
 }
