@@ -14,15 +14,10 @@ input{
 	width:200px;
 	border:0px;
 }
-.btn-large{
-	width:250px;
-	height:45px;
-	border-radius:5px;
-}
 .form-item{
 	height:50px;
-	border:solid 4px;
-	border-radius:5px;
+	border:solid 1px #DDDDDD;
+	border-radius:2px;
 }
 .form-item label{
 	padding-left:25px;
@@ -30,6 +25,7 @@ input{
 .form-item .field{
 	font-size:15px;
 	border:0 none;
+	outline:medium;
 	width:200px;
 	height:20px;
 	padding-left:10px;
@@ -39,4 +35,11 @@ input{
 .input-tip{
 	height:35px;
 	color:red;
+}
+.input-tip span{
+}
+.btn-register{
+	width:400px;
+	height:50px;
+	border-radius:5px;
 }
