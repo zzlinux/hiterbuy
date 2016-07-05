@@ -7,12 +7,30 @@
 .center{
 	margin:auto;
 }
+a{
+	text-decoration:none;
+}
 body{
 	margin:0;
 }
 input{
 	width:200px;
 	border:0px;
+}
+#footer{
+	border-top:solid 1px #e6e6e6;
+	text-align:center;
+	font-size:12px;
+	padding-bottom:30px;
+	color:#999;
+}
+#footer .links{
+	padding-top:30px;
+	padding-bottom:15px;
+}
+.links a{
+	color:#999;
+	margin:0 15px;
 }
 .form-item{
 	height:50px;
@@ -41,5 +59,6 @@ input{
 .btn-register{
 	width:400px;
 	height:50px;
+	font-size:large;
 	border-radius:5px;
 }

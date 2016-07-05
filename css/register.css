@@ -1,6 +1,25 @@
 #header{
 	height:82px;
-	border:solid 5px;
+	box-shadow:0 5px #e6e6e6;
+}
+#header a{
+	float:left;
+	margin-top:27px;
+	margin-left:25px;
+	margin-right:25px;
+	color:black;
+	font-size:25px;
+}
+#header .logo-title{
+	float:left;
+	margin-top:27px;
+	margin-left：25px;
+	padding-left:25px;
+	border-left:solid 1px #999;
+	font-size:25px;
+}
+.have-account{
+	margin-top:27px;
 }
 #content{
 	padding-top:40px;
@@ -11,9 +30,5 @@
 	width:400px;
 	margin:auto;
 	border:solid 0px none;
-}
-#footer{
-	height:70px;
-	border:solid 5px;
 }
 
