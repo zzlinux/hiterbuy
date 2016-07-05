@@ -2,13 +2,13 @@
 	height:82px;
 	box-shadow:0 5px #e6e6e6;
 }
-#header a{
+#header .logo{
 	float:left;
-	margin-top:27px;
-	margin-left:25px;
+	margin-top:5px;
+	margin-left:40px;
 	margin-right:25px;
-	color:black;
-	font-size:25px;
+	color:#c91623;
+	font-size:47px;
 }
 #header .logo-title{
 	float:left;
@@ -19,7 +19,9 @@
 	font-size:25px;
 }
 .have-account{
-	margin-top:27px;
+	margin-top:30px;
+	margin-right:40px;
+	font-size:20px;
 }
 #content{
 	padding-top:40px;
@@ -31,4 +33,9 @@
 	margin:auto;
 	border:solid 0px none;
 }
-
+#email-error span{
+	display:none;
+}
+#passwd-error span{
+	display:none;
+}
