@@ -1,8 +1,10 @@
 /*//////////////        golobal       ///////////////*/
 a{
 	text-decoration:none;
+	color:black;
 }
 body{
+	padding:0;
 	margin:0;
 }
 input{
@@ -22,58 +24,57 @@ li{
 .center{
 	margin:auto;
 }
-/*////////////       footer       ////////////////////*/
-.footer{
-	border-top:solid 1px #e6e6e6;
+.btn{
+	display:inline-block;
+	padding:6px 12px;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:normal;
+	line-height:1.4285;
 	text-align:center;
-	font-size:12px;
-	padding-bottom:30px;
-	color:#999;
+	white-space:nowrap;
+	vertical-align:middle;
+	cursor:pointer;
+	background-image:none;
+	border:1px solid transparent;
+	border-radius:4px;
 }
-.footer .links{
-	padding-top:30px;
-	padding-bottom:15px;
+/*////////////          page-struct          /////////*/
+.herder{
+	min-height:50px;
 }
-.footer .links a{
-	color:#999;
-	margin:0 15px;
+.header-large{
+	height:82px;
+	box-shadow:0 5px #e6e6e6;
 }
-/*/////////////      form           ///////////////////*/
-.form-item{
-	height:50px;
-	border:solid 1px #DDDDDD;
-	border-radius:5px;
-}
-.form-item label{
+.header-large .logo{
 	float:left;
-	line-height:50px;
+	margin-top:5px;
+	margin-left:40px;
+	margin-right:25px;
+	color:#c91623;
+	font-size:47px;
+}
+.header-large .logo-title{
+	float:left;
+	margin-top:27px;
+	margin-left：25px;
 	padding-left:25px;
+	border-left:solid 1px #999;
+	font-size:25px;
 }
-.form-item .field{
-	font-size:15px;
-	color:#000017;
-	border:0 none;
-	outline:medium;
-	width:200px;
-	height:20px;
-	padding-left:10px;
-	padding-top:16px;
-	padding-bottom:14px;
-	line-height:20px;
+.header-large .have-account{
+	margin-top:30px;
+	margin-right:50px;
+	font-size:18px;
+	color:#B9B5B5;
 }
-.input-tip{
-	height:35px;
-	color:red;
+.have-account a{
+	color:black;
 }
-.input-tip span{
-}
-.btn-register{
-	width:400px;
-	height:50px;
-	font-size:large;
-	border-radius:5px;
-	background:#EE2222;
-	color:aliceblue;
+.content{
+	padding-top:40px;
+	min-height:440px;
 }
 /*/////////////       nav           ////////////*/
 .navbar{
@@ -114,3 +115,105 @@ li{
 	background:#0482BA;
 	color:white;
 }
+/*////////////       footer       ////////////////////*/
+.footer{
+	border-top:solid 1px #e6e6e6;
+	text-align:center;
+	font-size:12px;
+	padding-bottom:20px;
+	color:#999;
+}
+.footer .links{
+	padding-top:30px;
+	padding-bottom:15px;
+}
+.footer .links a{
+	color:#999;
+	margin:0 15px;
+}
+/*/////////////      form-horizontal          ///////////////////*/
+.register-form{
+	width:400px;
+	margin:auto;
+	border:solid 0px none;
+}
+.form-group{
+	height:50px;
+	border:solid 1px #DDDDDD;
+	border-radius:5px;
+}
+.form-group label{
+	padding-left:25px;
+}
+.form-group .field{
+	font-size:15px;
+	color:#000017;
+	border:0 none;
+	outline:medium;
+	width:200px;
+	height:20px;
+	padding-left:10px;
+	padding-top:16px;
+	padding-bottom:14px;
+	line-height:20px;
+}
+.input-tip{
+	height:35px;
+	line-height:35px;
+	color:red;
+}
+.input-tip span{
+}
+.btn-register{
+	width:400px;
+	height:50px;
+	font-size:large;
+	border-radius:5px;
+	background:#EE2222;
+	color:aliceblue;
+}
+/*////////////        form-login     ///////////*/
+.login-form{
+	margin-right:200px;
+}
+.form-small{
+	position:relative;
+	top:40px;
+	z-index:1;
+	width:300px;
+	padding:20px;
+	background:#fff;	
+		border:solid 1px;
+}
+.form-group-small{
+	height:38px;
+	margin-bottom:25px;
+	border:solid 1px #DDDDDD;
+	border-radius:4px;
+}
+.form-group-small label{
+	padding-left:20px;
+	line-height:38px;	
+}
+.form-group-small .item{
+	height:20px;
+	width:250px;
+	margin-left:20px;
+	margin-top:9px;
+	margin-bottom:9px;
+	border:0px none;
+	outline:medium;	
+	line-height:20px;
+	font-size:17px;
+	color:#000017;	
+}
+.form-bar{
+	width:300px;
+	height:38px;
+	line-height:38px;
+	margin-bottom:25px;
+}
+.form-bar span input{
+width:inherit;
+}
+
