@@ -1,12 +1,4 @@
-.fleft{
-	float:left;
-}
-.fright{
-	float:right;
-}
-.center{
-	margin:auto;
-}
+/*//////////////        golobal       ///////////////*/
 a{
 	text-decoration:none;
 }
@@ -17,21 +9,36 @@ input{
 	width:200px;
 	border:0px;
 }
-#footer{
+li{
+	list-style:none;
+}
+/*////////////          gologal-function     /////////*/
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+.center{
+	margin:auto;
+}
+/*////////////       footer       ////////////////////*/
+.footer{
 	border-top:solid 1px #e6e6e6;
 	text-align:center;
 	font-size:12px;
 	padding-bottom:30px;
 	color:#999;
 }
-#footer .links{
+.footer .links{
 	padding-top:30px;
 	padding-bottom:15px;
 }
-.links a{
+.footer .links a{
 	color:#999;
 	margin:0 15px;
 }
+/*/////////////      form           ///////////////////*/
 .form-item{
 	height:50px;
 	border:solid 1px #DDDDDD;
@@ -67,4 +74,43 @@ input{
 	border-radius:5px;
 	background:#EE2222;
 	color:aliceblue;
+}
+/*/////////////       nav           ////////////*/
+.navbar{
+	position:relative;
+	min-height:50px;
+	margin-bottom:20px;
+	border:1px solid transparent;
+	background:#0593D3;
+}
+.navbar-header{
+	float:left;
+}
+.navbar-brand{
+	float:left;
+	padding:0 40px;
+	font-size:25px;
+	line-height:50px;
+	color:white;
+}
+.navbar-nav{
+	float:left;
+	margin:0;
+	padding:0;
+}
+.navbar-nav li{
+	float:left;
+	line-height:50px;
+	font-size:16px;
+}
+.navbar-nav li a{
+	display:block;
+	padding:0 15px;
+	height:50px;
+	color:white;
+}
+.navbar-nav li a:hover,
+.navbar-nav li a:focus{
+	background:#0482BA;
+	color:white;
 }
