@@ -9,19 +9,23 @@
 <body>
 	<div class="header header-large">
 		<div class="logo"></div>
-		<a href="#" target="blank" class="logo">HiterBuy!</a>
+		<div class="logo"></div>
+		<a href="index.html" target="blank" class="logo">HiterBuy!</a>
 		<div class="logo-title">欢迎登录</div>
 	</div>
 	<div class="content">
 		<div class="login-form">
 			<form action="login.php" method="post" class="fright form-small">
+				<div class="form-bar">
+					<div class="logo-small">HiterBuy!</div>
+				</div>
 				<div class="form-group-small">
 					<label>账号:</label>
-					<input type="text" name="id" placeholder="账号/邮箱号" class="field">
+					<input type="text" name="id" placeholder="账号/邮箱号" class="item">
 				</div>
 				<div class="form-group-small">
 					<label>密码:</label>
-					<input type="password" name="pwd" placeholder="请输入密码" class="field">
+					<input type="password" name="pwd" placeholder="请输入密码" class="item">
 				</div>
 				<div class="form-bar">
 					<span class="fleft">
@@ -33,12 +37,14 @@
 					</span>
 				</div>
 				<div class="form-bar">
-					<input type="submit" value="登录" class="fleft btn btn-small">
-					<a href="register.html" class="fright btn btn-small">注册</a>	
+					<input type="submit" value="登录" class="fleft leftmargin-15 btn btn-red">
+					<a href="register.html" class="fright rightmargin-15 btn btn-default">注册</a>	
 				</div>
 			</form>
 		</div>
-		<div class="content-banner"></div>
+		<div class="content-banner">
+			<div class="login-banner"></div>
+		</div>
 	</div>
 	<div class="footer">
 		<div class="links">

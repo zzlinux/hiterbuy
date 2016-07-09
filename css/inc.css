@@ -8,7 +8,6 @@ body{
 	margin:0;
 }
 input{
-	width:200px;
 	border:0px;
 }
 li{
@@ -24,13 +23,20 @@ li{
 .center{
 	margin:auto;
 }
+.leftmargin-15{
+	margin-left:15%;
+}
+.rightmargin-15{
+	margin-right:15%;
+}
+/*/////////////         btn           /////////////////*/
 .btn{
 	display:inline-block;
-	padding:6px 12px;
+	padding:6px 15px;
 	margin-bottom:0;
-	font-size:14px;
+	font-size:16px;
 	font-weight:normal;
-	line-height:1.4285;
+	line-height:25px;
 	text-align:center;
 	white-space:nowrap;
 	vertical-align:middle;
@@ -39,7 +45,42 @@ li{
 	border:1px solid transparent;
 	border-radius:4px;
 }
-/*////////////          page-struct          /////////*/
+.btn-default{
+	color:#333;
+	background:#fff;
+	border-color:#ccc;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.active{
+	color:#333;
+	background:#ebebeb;
+	border-color:#adadad;
+}
+.btn-primary{
+	color:#ffffff;
+	background:#428bca;
+	border-color:#357ebd;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active{
+	color:#fff;
+	background-color:#3276b1;
+	border-color:#285e8e;
+}
+.btn-red{
+	color:aliceblue;
+	background-color:#ee2222;
+	border-color:#A5756F;
+}
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active{
+	color:aliceblue;
+	background-color:#cb0b0b;	
+}
+/*////////////          herder-large          /////////*/
 .herder{
 	min-height:50px;
 }
@@ -47,7 +88,7 @@ li{
 	height:82px;
 	box-shadow:0 5px #e6e6e6;
 }
-.header-large .logo{
+.logo{
 	float:left;
 	margin-top:5px;
 	margin-left:40px;
@@ -55,7 +96,14 @@ li{
 	color:#c91623;
 	font-size:47px;
 }
-.header-large .logo-title{
+.logo-small{
+	margin:0 auto;
+	color:#c91623;
+	font-size:28px;
+	line-height:38px;
+	text-align:center;
+}
+.logo-title{
 	float:left;
 	margin-top:27px;
 	margin-left：25px;
@@ -73,7 +121,6 @@ li{
 	color:black;
 }
 .content{
-	padding-top:40px;
 	min-height:440px;
 }
 /*/////////////       nav           ////////////*/
@@ -135,6 +182,7 @@ li{
 .register-form{
 	width:400px;
 	margin:auto;
+	margin-top:40px;
 	border:solid 0px none;
 }
 .form-group{
@@ -176,14 +224,23 @@ li{
 .login-form{
 	margin-right:200px;
 }
+.content-banner{
+	background-color:#6c4eca;	
+	height:475px;
+}
+.login-banner{
+	background:url(../img/banner.jpg);
+	width:1000px;
+	height:475px;
+	margin:0 auto;
+}
 .form-small{
 	position:relative;
-	top:40px;
+	top:60px;
 	z-index:1;
 	width:300px;
 	padding:20px;
-	background:#fff;	
-		border:solid 1px;
+	background:#fff;
 }
 .form-group-small{
 	height:38px;
@@ -192,19 +249,19 @@ li{
 	border-radius:4px;
 }
 .form-group-small label{
-	padding-left:20px;
+	padding-left:30px;
 	line-height:38px;	
 }
 .form-group-small .item{
 	height:20px;
-	width:250px;
+	width:150px;
 	margin-left:20px;
 	margin-top:9px;
 	margin-bottom:9px;
 	border:0px none;
 	outline:medium;	
 	line-height:20px;
-	font-size:17px;
+	font-size:15px;
 	color:#000017;	
 }
 .form-bar{
@@ -214,6 +271,5 @@ li{
 	margin-bottom:25px;
 }
 .form-bar span input{
-width:inherit;
 }
 
