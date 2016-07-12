@@ -1,93 +1,64 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="Generator" content="EditPlus®">
-<meta name="Author" content="">
-<meta name="Keywords" content="">
-<meta name="Description" content="">
-<title>工大二手商城</title>
-<link rel="stylesheet"  href="css/head.css" type="text/css" />
-<link rel="stylesheet"  href="css/main.css" type="text/css" />
-
-<script src="js/qiehuan.js" type="text/javascript"></script>
+	<meta charset="UTF-8">
+	<title>hiterbuy</title>
+	<link rel="stylesheet" type="text/css" href="css/inc.css">
+	<script src="js/inc.js"></script>
 </head>
-    <body>
-        <div id="container">
-            <div id="head">
-            </div>
-            <div id="neck">
-                 <ul id="zhuce">
-                    <li class="nk">hi,欢迎使用    </li>
-                    <li class="nk"><a class="login" href="login.html">请登录</a></li>
-                    <li class="nk"><a class="register" href="regiter.html">免费注册</a></li>
-                </ul>
-            </div>
-            <div id="main">
-                <div id="zhanshi">
-                     <div id="pic">
-                     <img id="tu" src="tupian/1.jpg"/>
-                     </div>
-                     <div id="gonggao">
-                            <ul class="gonggao">
-                                <h3>公告</h3>
-                                <li>旋律引领者弦 </li>
-                                <li>在最重要的一句话</li>
-                                <li>大时代的插曲</li>
-                                <li>音符内摸索></li>
-                            </ul>
-                     </div>
-                </div> 
-                <div id="show">
-                    <div id="fenlei" >
-                        <ul>
-                            <li class="fen"><a href="">书籍</a></li></br>
-                            <li class="fen"><a href="">生活用品</a></li></br>
-                            <li class="fen"><a href="">体育器材</a></li></br>
-                            <li class="fen"><a href="">其他</a></li></br>
-                        </ul>
-                    </div>
-                    <div id="daibiao">
-                        <div id="first">
-                            <a href="" ></a>
-                        </div>
-                        <div id="second">
-                            <a href="" ></a>
-                        </div>
-                        <div id="third">
-                            <a href="" ></a>
-                        </div>
-                        <div id="forth">
-                            <a href="" ></a>
-                        </div>
-                        <div id="fifth">
-                            <a href="" ></a>
-                        </div>
-                        <div id="sixth">
-                            <a href="" ></a>
-                        </div>
-                    </div>
-                    <div id="za">
-                        <div id="sou">
-                            <a class="tijiao" href=""><input type="button" value="我要发布" class="fabu"></a></br>
-                            <input type="text" name="search">
-                            <a class="search" href=""><input type="button" value="搜索" class="sou"></a></br>
-                        <div>
-                        <div id="xinxi">
-                            <ul>
-                                <h3>求购/发布</h3>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                                <li></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="footer">
-
-            </div>
-        </div>
-    </body>
+<body>
+	<div class="head">
+		<div class="header-top border-padding">
+			<a href="index.php" class="fleft">HITERBUY!~分类</a>
+			<ul class="fright">
+				<li><a href="login.html">你好～请登录</a></li>
+				<li class="spacer"></li>
+				<li><a href="register.html">免费注册</a></li>
+				<li class="spacer"></li>
+				<li><a href="userInfo.php">个人信息</a></li>
+				<li class="spacer"></li>
+				<li><a href="userHistory.php">我的发布</a></li>
+				<li class="spacer"></li>
+				<li><a href="message.php" id="last">消息记录</a></li>
+			</ul>
+		</div>	
+		<div class="header-large border-padding">
+			<a href="index.php" class="logo">HITERBUY!</a>
+			<form class="search" action="list.php" method="get">
+				<input type="text" name="query" placeholder="搜寻物品">
+				<button type="submit" class="btn-search">搜索</button>
+			</form>
+			<div class="fright"></div>
+		</div>	
+		<div class="navbar">
+			<div class="navbar-header">
+				<a href="list.php" class="navbar-brand">所有商品分类</a>
+			</div>
+			<ul class="navbar-nav">
+				<li><a href="discuz.php">工大之声</a></li>
+				<li><a href="torch.php">学长火炬</a></li>
+				<li><a href="goodsNeed.php">商品求购</a></li>
+				<li><a href="discuz.php">闲置发布</a></li>
+			</ul>
+		</div>	
+	</div>
+	<div class="banner">
+		<div></div>
+		<div></div>
+	</div>
+	<div class="content"></div>
+	<div class="footer">
+		<div class="links">
+			<a href="#">关于hiterbuy</a>|		
+			<a href="#">加入我们</a>|		
+			<a href="#">联系我们</a>|		
+			<a href="#">商家入住</a>|
+			<a href="#">友情连接</a>|		
+			<a href="#">帮助中心</a> 
+		</div>
+		<div class="copyright">
+			Copyright©2016-2026&nbsp&nbsp哈工大hiterbuy.com&nbsp版权所有
+		</div>
+	</div>
+</body>
 </html>

@@ -29,6 +29,17 @@ li{
 .rightmargin-15{
 	margin-right:15%;
 }
+.border-padding{
+	padding:0 58px;
+}
+.spacer{
+	height:12px;
+	width:1px;
+	background:#666;
+	padding:0;
+	line-height:32px;
+	margin-top:10px;
+}
 /*/////////////         btn           /////////////////*/
 .btn{
 	display:inline-block;
@@ -80,10 +91,40 @@ li{
 	color:aliceblue;
 	background-color:#cb0b0b;	
 }
-/*////////////          herder-large          /////////*/
+/*////////////          header-top          /////////////*/
 .herder{
 	min-height:50px;
 }
+.header-top{
+	height:32px;
+	line-height:32px;
+	background:#f1f1f1;
+}
+.header-top >a{
+	color:#C81623;
+}
+.header-top >ul li a[href="login.html"]{
+	color:#C81623;
+}
+.header-top >ul{
+	margin:0;
+}
+.header-top >ul li{
+	float:left;
+	line-height:32px;
+	font-size:12px;
+	text-align:center;
+}
+.header-top >ul li a{
+	
+	padding:0 20px;
+	color:#666;
+}
+.header-top >ul li a:hover,
+.header-top >ul li a:active{
+	color:#C81623;
+}
+/*////////////          herder-large          /////////*/
 .header-large{
 	height:82px;
 	box-shadow:0 5px #e6e6e6;
