@@ -291,6 +291,24 @@ li{
 	background:#0482BA;
 	color:white;
 }
+/*///////////        banner        ///////////////////*/
+.lside{
+	float:left;
+	width:415px;
+	height:406px;
+	border-right:solid 2px #B61D1D;
+	border-bottom:solid 2px #B61D1D;
+	border-left:solid 2px #B61D1D;
+}
+.rside{
+	float:left;
+	width:780px;
+	height:406px;
+	margin-left:7px;
+	border-bottom:solid 2px #B61D1D;
+	border-right:solid 2px #B61D1D;
+	border-left:solid 2px #B61D1D;
+}
 /*////////////       footer       ////////////////////*/
 .footer{
 	border-top:solid 1px #e6e6e6;
