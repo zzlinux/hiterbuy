@@ -52,23 +52,69 @@
 	<div class="banner">
 		<div class="w">
 			<div class="lside">
-				<div class="tab">
+				<div id="tab">
 					<div class="tabList">
 						<ul class="ls-header">
-							<li><a href="#">饭卡充值</a></li>
+							<li class="cur"><a href="#">饭卡充值</a></li>
 							<li><a href="#">校园网费</a></li>
 							<li><a href="#">饮水订购</a></li>
 						</ul>
 					</div>
 					<div class="tabCon">
 						<div class="cur">	
-							饭卡充值
+							<form action="#" method="post">
+								<div class="form-group">
+									<div class="head">饭卡金额轻松充</div>
+								</div>
+								<div class="form-group">
+									<label>充值学号:</label>
+									<input type="text" name="schoolNumber" class="item"/>
+								</div>
+								<div class="form-group">
+									<label>充值金额</label>
+									<input type="text" name="schoolNumber" class="item"/>
+								</div>
+								<div class="form-group">
+									<input type="submit" value="立即充值" class="btn"/>
+								</div>
+							</form>
 						</div>
 						<div>
-							网费充值
+							<form action="#" method="post">
+								<div class="form-group">
+									<div class="head">网费充值畅快玩</div>
+								</div>
+								<div class="form-group">
+									<label>网费账号</label>
+									<input type="text" name="schoolNumber" class="item"/>
+								</div>
+								<div class="form-group">
+									<label>缴费金额</label>
+									<input type="text" name="moneyNumber" class="item"/>
+								</div>
+								<div class="form-group">
+									<input type="submit" value="立即充值" class="btn"/>
+								</div>
+							</form>
 						</div>
 						<div>
-							饮水预定
+							<form action="#" method="post">
+								<div class="form-group">
+									<div class="head">饮水续流生活美</div>
+								</div>
+								<div class="form-group">
+									<label>公寓号</label>
+									<input type="text" name="hotelNumber" class="item"/>
+								</div>
+								<div class="form-group">
+									<label>寝室号</label>
+									<input type="text" name="roomNumber" class="item"/>
+								</div>
+								<div class="form-group">
+									<input type="submit" value="立即订购" class="btn"/>
+								</div>
+							</form>
+
 						</div>
 					</div>
 				</div>

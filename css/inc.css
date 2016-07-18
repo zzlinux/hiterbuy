@@ -341,6 +341,12 @@ li{
 	padding:0;
 	margin:0;
 }
+.ls-header{
+	width:250px;
+	height:82px;
+	padding:0;
+	margin:0;
+}
 .ls-header >li{
 	float:left;
 	width:82px;
@@ -352,15 +358,67 @@ li{
 	display:block;
 	width:82px;
 	height:50px;
-	background-color:#c81623;
 	color:#fff;
+	background-color:#c81623;
 }
-.ls-header >li >a:hover,
+/*.ls-header >li >a:hover,
 .ls-header >li >a:active{
 	background-color:#fff;
 	color:#b61d1d;
+}*/
+#tab .tabCon{
+	position:absolute;
+	width:250px;
+	height:350px;
+	margin:0;
+	padding:0;
 }
-
+#tab .tabCon >div{
+	position:absolute;
+	width:250px;
+	height:290px;
+	padding:20px 10px;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+#tab .tabCon >div .form-group{
+	width:230px;
+	height:30px;
+	margin:10px 0;
+	border:none;
+}
+#tab .tabCon >div .form-group label{
+	float:left;
+	line-height:30px;
+	font-size:15px;
+	padding:0;
+	padding-right:5px;
+}
+#tab .tabCon div .form-group .item{
+	float:left;
+	width:150px;
+	height:30px;
+}
+#tab .tabCon div .form-group .btn{
+	float:left;
+	width:80px;
+	height:3px;
+	color:#fff;
+	background-color:#c81623;
+}
+#tab .tabCon div .form-group .head{
+	height:30px;
+	font-size:30px;
+	color:#c81623;
+} 
+#tab .tabList .cur a{
+	background:#fff;
+	color:#b61d1d;
+}
+#tab .tabCon div.cur{
+	opacity:1;
+	filter:alpha(opacity=100);
+}
 /*////////////       footer       ////////////////////*/
 .footer{
 	border-top:solid 1px #e6e6e6;
