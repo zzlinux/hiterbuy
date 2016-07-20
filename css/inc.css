@@ -10,6 +10,10 @@ body{
 li{
 	list-style:none;
 }
+ul{
+	padding:0;
+	margin:0;
+}
 /*////////////          gologal-function     /////////*/
 .fleft{
 	float:left;
@@ -134,18 +138,34 @@ li{
 	line-height:32px;
 	background:#f1f1f1;
 }
-.header-top >.w>a{
+.header-top>.w>.fleft{
+	width:141px;
+}
+.header-top >.w>.fleft>span{
+	display:inline-block;
+	vertical-align:middle;
+	width:16px;
+	height:12px;
+	background-image:url(../img/yoho.png);
+	background-position:0 -12px;
+	
+}
+.header-top >.w>.fleft>a{
 	color:#C81623;
 }
-
-/*/////////// subMenu /////////////////*/
-
-.header-top .subMenu >ul{
-	display:none;
-	position:absolute;
-	top:0px;
+.header-top >.w>.fleft>li{
+	width:122px;
+	margin:30px;
+	padding:0;
 }
-.header-top >.w>ul li a[href="login.html"]{
+.header-top >.w>.fleft li>a{
+	color:#b61d1d;
+}
+.header-top >.w>.fleft li>a:hover,
+.header-top >.w>.fleft li>a:active{
+	color:black;	
+}
+.header-top >.w>ul>li>a[href="login.html"]{
 	color:#C81623;
 }
 .header-top >.w>ul{
@@ -165,6 +185,20 @@ li{
 .header-top >.w>ul li a:hover,
 .header-top >.w>ul li a:active{
 	color:#C81623;
+}
+/*/////////// subMenu /////////////////*/
+
+.subMenu >ul{
+	width:180px;
+	padding:18px 20px;
+	background-color:#f1f1f1;
+	display:none;
+	position:absolute;
+	z-index:10;
+	top:32px;
+}
+.bg-change{
+	background-color:#dcdcdc;
 }
 /*////////////          herder-large          /////////*/
 .header-large{
