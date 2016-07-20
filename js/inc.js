@@ -40,9 +40,11 @@
 function displaySubMenu(node){
 	var subMenu=node.getElementsByTagName("ul")[0];
 	subMenu.style.display="block";
+	node.className="bg-change subMenu fleft";
 }
 
 function hideSubMenu(node){
 	var subMenu=node.getElementsByTagName("ul")[0];
 	subMenu.style.display="none";
+	node.className="subMenu fleft";
 }

@@ -4,20 +4,25 @@
 	<meta charset="UTF-8">
 	<title>hiterbuy</title>
 	<link rel="stylesheet" type="text/css" href="css/inc.css">
+	<link rel="stylesheet" type="text/css" href="css/carousel.css">
 	<script src="js/inc.js"></script>
+	<script src="js/carousel.js"></script>
 </head>
 <body>
 	<div class="head">
 		<div class="header-top">
 			<div class="w">
-				<a href="index.php" class="fleft subMenu" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">HITER!BUY~分类
+				<div class="fleft subMenu" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">
+					<span class="icon-hamburger"></span>
+					<a href="index.php" >HITER!BUY~分类
+					</a>
 					<ul>
-						<li><a href="#">二手书籍</a></li>
-						<li><a href="#">二手数码</a></li>
-						<li><a href="#">二手电子</a></li>
-						<li><a href="#">二手家具</a></li>
+						<li><a href="#">HITER!BUY~书籍</a></li>
+						<li><a href="#">HITER!BUY~数码</a></li>
+						<li><a href="#">HITER!BUY~电子</a></li>
+						<li><a href="#">HITER!BUY~家具</a></li>
 					</ul>
-				</a>
+				</div>
 				<ul class="fright">
 					<li><a href="login.html">你好～请登录</a></li>
 					<li class="spacer"></li>
@@ -127,7 +132,25 @@
 				</div>
 			</div>
 			<div class="carousel">
-				
+				<div id="banner">
+					<div id="banner_bg"></div>	<!--标题背景-->
+					<a href="#" id="banner_info"></a><!--标题-->
+					<ul id="list"></ul>
+					<div id="banner_list">
+						<a href="#" target="_blank">
+							<img src="img/p1.jpg">
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/p2.jpg">
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/p3.jpg">
+						</a>
+						<a href="#" target="_blank">
+							<img src="img/p4.jpg">
+						</a>
+					</div>
+				</div>
 			</div>
 			<div class="rside">
 				
