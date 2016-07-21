@@ -14,6 +14,9 @@ ul{
 	padding:0;
 	margin:0;
 }
+.banner{
+	min-height:394px;
+}
 /*////////////          gologal-function     /////////*/
 .fleft{
 	float:left;
@@ -44,6 +47,11 @@ ul{
 }
 .hide{
 	display:none;
+}
+.hover:hover,
+.hover:active{
+	color:#b61d1d;
+	text-decoration:underline;
 }
 /*/////////////         btn           /////////////////*/
 .btn{
@@ -366,14 +374,6 @@ ul{
 	padding:0;
 	background:gray;
 }
-.rside{
-	float:left;
-	width:286px;
-	height:394px;
-	margin-top:12px;
-	padding:0;
-	background:blue;
-}
 .tabList{
 	height:50px;
 	width:250px;
@@ -464,21 +464,55 @@ ul{
 	filter:alpha(opacity=100);    opacity 影响交互*/
 	display:block;
 }
-/*////////////       footer       ////////////////////*/
-.footer{
-	border-top:solid 1px #e6e6e6;
-	text-align:center;
+/*////////////       news         ///////////////////*/
+.rside{
+	float:left;
+	width:284px;
+	height:392px;
+	margin-top:12px;
+	padding:0;
+	border:solid 1px #e4e4e4;
+}
+.news{
+	margin:15px;
+	width:254px;
+	height:166px;
+}
+.news-header{
+	width:254px;
+	height:32px;
+	margin:0;
+}
+.news-header>h2{
+	padding:0;
+	margin:0;
+	float:left;
+	line-height:32px;
+	font-size:20px;
+	color:#666;
+}
+.news-header>a{
+	display:inline-block;
+	height:32px;
+	float:right;
+	line-height:32px;
+	font-size:13px;
+	color:#666;
+}
+.news-item{
+	width:254px;
+	height:144px;
+	padding:12px 0;
+	margin:0;
+}
+.news-item>ul>li{
+	height:30px;
+}
+.news-item>ul>li>a{
+	float:left;
 	font-size:12px;
-	padding-bottom:20px;
-	color:#999;
-}
-.footer .links{
-	padding-top:30px;
-	padding-bottom:15px;
-}
-.footer .links a{
-	color:#999;
-	margin:0 15px;
+	line-height:30px;
+	color:#666;
 }
 /*/////////////      form-horizontal          ///////////////////*/
 .register-form{
@@ -573,5 +607,28 @@ ul{
 	margin-bottom:25px;
 }
 .form-bar span input{
+}
+/*////////////       needs        ////////////////////*/
+.needs{
+	width:1206px;
+	height:170px;
+	margin:25px 0;
+	border:solid 2px #c81623;
+}
+/*////////////       footer       ////////////////////*/
+.footer{
+	border-top:solid 1px #e6e6e6;
+	text-align:center;
+	font-size:12px;
+	padding-bottom:20px;
+	color:#999;
+}
+.footer .links{
+	padding-top:30px;
+	padding-bottom:15px;
+}
+.footer .links a{
+	color:#999;
+	margin:0 15px;
 }
 
