@@ -15,7 +15,7 @@ ul{
 	margin:0;
 }
 .banner{
-	min-height:394px;
+	min-height:406px;
 }
 /*////////////          gologal-function     /////////*/
 .fleft{
@@ -52,6 +52,9 @@ ul{
 .hover:active{
 	color:#b61d1d;
 	text-decoration:underline;
+}
+.shadow{
+	box-shadow:0 0 3px 2px #ededed; 
 }
 /*/////////////         btn           /////////////////*/
 .btn{
@@ -374,6 +377,9 @@ ul{
 	padding:0;
 	background:gray;
 }
+.carousel img{
+}
+/*////////////       tabCard      ///////////////////*/
 .tabList{
 	height:50px;
 	width:250px;
@@ -608,19 +614,16 @@ ul{
 }
 .form-bar span input{
 }
-/*////////////       needs        ////////////////////*/
-.needs{
-	width:1206px;
-	height:170px;
-	margin:25px 0;
-	border:solid 2px #c81623;
-}
 /*///////////        content      /////////////////////*/
+.content >.w{
+	min-height:387px;
+	height:auto;
+}
 /*///////////        cut-bar      ////////////////////*/
 .cut-bar{
 	width:100%;
 	height:85px;
-	margin-bottom:25px;
+	margin:12px 0;
 	background:#f7f7f7;
 }
 .cut-bar .w{
@@ -633,18 +636,61 @@ ul{
 	line-height:85px;
 	color:#b1191a;
 }
+/*////////////       needs        ////////////////////*/
+.needs{
+	float:left;
+	width:185px;
+	height:auto;
+	border:solid 2px #f1f1f1;
+	background-color:#f1f1f1;
+	opacity:0.8;
+}
+.needs-head{
+	opacity:1;
+	width:185px;
+	height:50px;
+	background-color:#b1191a;
+	color:white;
+	text-align:center;
+	line-height:50px;
+	font-size:24px;
+}
+.needsList{
+	
+}
+.nl-item{
+	width:175px;
+	padding:10px 5px;
+}
+.nl-width{
+	width:175px;
+}
+.nl-img a img{
+	width:175px;
+	height:175px;
+}
+.nl-head a{
+	font-size:15px;
+	line-height:35px;
+	color:#666666;
+}
 /*////////////       goodlist      //////////////////*/
+.goods{
+	float:left;
+	margin:0;
+	width:1020px;
+	height:auto;
+}
 .goodsList{
-	min-height:500px;
+	min-height:387px;
 }
 .gl-item{
+	position:relative;
 	float:left;
 	width:220px;
-	border:solid 1px gray;
+	border:solid 1px white;
 	padding:20px 9px;
-}
-.gl-i-wrap{
-
+	margin:10px 15px 10px 0;
 }
 .p-width{
 	width:220px;	

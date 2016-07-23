@@ -48,3 +48,10 @@ function hideSubMenu(node){
 	subMenu.style.display="none";
 	node.className="subMenu fleft";
 }
+
+/*///////////////box-shadow   classChange方法　///////////*/
+function classShow(block,show){
+	var target=block;
+	target.className=show;
+}
+
