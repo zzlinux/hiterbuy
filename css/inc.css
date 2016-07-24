@@ -56,6 +56,17 @@ ul{
 .shadow{
 	box-shadow:0 0 3px 2px #ededed; 
 }
+.group:before,
+.group:after{
+	content:"";
+	display:table;
+}
+.group:after{
+	clear:both;
+}
+.group{
+	*zoom:1;
+}
 /*/////////////         btn           /////////////////*/
 .btn{
 	display:inline-block;
@@ -473,11 +484,11 @@ ul{
 /*////////////       news         ///////////////////*/
 .rside{
 	float:left;
-	width:284px;
+	width:282px;
 	height:392px;
 	margin-top:12px;
 	padding:0;
-	border:solid 1px #e4e4e4;
+	border:solid 2px #e4e4e4;
 }
 .news{
 	margin:15px;
@@ -641,26 +652,23 @@ ul{
 	float:left;
 	width:185px;
 	height:auto;
-	border:solid 2px #f1f1f1;
-	background-color:#f1f1f1;
-	opacity:0.8;
+	margin-top:10px;
+	border:solid 2px #ededed;
 }
 .needs-head{
-	opacity:1;
-	width:185px;
+	width:180px;
 	height:50px;
-	background-color:#b1191a;
-	color:white;
-	text-align:center;
 	line-height:50px;
-	font-size:24px;
+	padding-left:5px;
+	font-size:18px;
+	color:#666666;
 }
 .needsList{
 	
 }
 .nl-item{
 	width:175px;
-	padding:10px 5px;
+	padding:15px 5px;
 }
 .nl-width{
 	width:175px;
@@ -682,7 +690,6 @@ ul{
 	height:auto;
 }
 .goodsList{
-	min-height:387px;
 }
 .gl-item{
 	position:relative;

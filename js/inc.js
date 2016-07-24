@@ -2,7 +2,7 @@
 *hiterbuy 公共js
 *author   zzlinux 菜鸟
 	*/
-	window.onload=function(){
+function tabCard(){
 		var oDiv=document.getElementById("tab");
 		var oLi=oDiv.getElementsByTagName("div")[0].getElementsByTagName("li");
 		var aCon=oDiv.getElementsByTagName("div")[1].children;
@@ -19,8 +19,8 @@
 				for (var j=0;j<oLi.length;j++){
 						oLi[j].className="";
 						aCon[j].className="";
-			//			aCon[j].style.opacity=0;
-			//			aCon[j].style.filter="alpha(opacity=0)";
+//						aCon[j].style.opacity=0;
+//						aCon[j].style.filter="alpha(opacity=0)";
 					}
 				oLi[index].className="cur";
 				aCon[index].className="cur";
