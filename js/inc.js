@@ -37,16 +37,16 @@ function tabCard(){
 		}
 
 //////////////////下拉菜单/////////////////////////////
-function displaySubMenu(node){
+function displaySubMenu(node,show){
 	var subMenu=node.getElementsByTagName("ul")[0];
 	subMenu.style.display="block";
-	node.className="bg-change subMenu fleft";
+	node.className=show;
 }
 
-function hideSubMenu(node){
+function hideSubMenu(node,show){
 	var subMenu=node.getElementsByTagName("ul")[0];
 	subMenu.style.display="none";
-	node.className="subMenu fleft";
+	node.className=show;
 }
 
 /*///////////////box-shadow   classChange方法　///////////*/

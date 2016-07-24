@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>hiterbuy</title>
+	<link rel="stylesheet" type="text/css" href="css/inc.css">
+	<script src="js/inc.js"></script>
+</head>
+<body>
+	<div class="head">
+		<div class="header-top">
+			<div class="w">
+				<div class="fleft subMenu" onmouseover="displaySubMenu(this)" onmouseout="hideSubMenu(this)">
+					<span class="icon-hamburger"></span>
+					<a href="index.php" >HITER!BUY~分类
+					</a>
+					<ul>
+						<li><a href="#">HITER!BUY~书籍</a></li>
+						<li><a href="#">HITER!BUY~数码</a></li>
+						<li><a href="#">HITER!BUY~电子</a></li>
+						<li><a href="#">HITER!BUY~家具</a></li>
+					</ul>
+				</div>
+				<ul class="fright">
+					<li><a href="login.html">你好～请登录</a></li>
+					<li class="spacer"></li>
+					<li><a href="register.html">免费注册</a></li>
+					<li class="spacer"></li>
+					<li><a href="userInfo.php">个人信息</a></li>
+					<li class="spacer"></li>
+					<li><a href="userHistory.php">我的发布</a></li>
+					<li class="spacer"></li>
+					<li><a href="message.php" id="last">消息记录</a></li>
+				</ul>
+			</div>	
+		</div>
+		<div class="header-large w">
+			<div class="logoo">
+				<a href="index.html"></a>
+			</div>
+			<form class="search fleft" action="list.php" method="get">
+				<input type="text" name="keyWord" placeholder="搜索二手书籍/二手数码/二手电子diy">
+				<button type="submit" class="btn-search">搜索</button>
+			</form>
+			<div class="fright"></div>
+		</div>
+		<div class="header-bottom">	
+			<div class="w">
+				<div class="subMenu" onmouseover="displaySubMenu(this,'subMenu')" onmouseout="hideSubMenu(this,'subMenu')">
+					<a href="list.php">工大生活助手</a>
+					<ul>
+						<li><a href="#">饭卡充值</a></li>
+						<li><a href="#">校园网费</a></li>
+						<li><a href="#">饮水订购</a></li>
+					</ul>
+				</div>
+				<ul>
+					<li><a href="discuz.php">工大之声</a></li>
+					<li><a href="torch.php">学长火炬</a></li>
+					<li><a href="hitdn110.php">电脑维修</a></li>
+					<li><a href="goodsNeed.php">商品求购</a></li>
+					<li><a href="discuz.php">闲置发布</a></li>
+				</ul>
+			</div>	
+		</div>
+	</div>
+	<div class="content">
+		<div class="w"></div>
+	</div>
+	<div class="footer">
+		<div class="links">
+			<a href="#">关于hiterbuy</a>|		
+			<a href="#">加入我们</a>|		
+			<a href="#">联系我们</a>|		
+			<a href="#">商家入住</a>|
+			<a href="#">友情连接</a>|		
+			<a href="#">帮助中心</a> 
+		</div>
+		<div class="copyright">
+			Copyright©2016-2026&nbsp&nbsp哈工大hiterbuy.com&nbsp版权所有
+		</div>
+	</div>
+</body>
+</html>
