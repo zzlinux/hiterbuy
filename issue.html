@@ -5,6 +5,12 @@
 	<title>hiterbuy</title>
 	<link rel="stylesheet" type="text/css" href="css/inc.css">
 	<script src="js/inc.js"></script>
+  <script src="js/kindeditor/kindeditor-all.js" type="text/javascript"></script>
+  <script type="text/javascript">
+        KindEditor.ready(function(K) {
+                window.editor = K.create('#desc');
+        });
+  </script>
 </head>
 <body>
 	<div class="head">
@@ -30,8 +36,7 @@
 					<li class="spacer"></li>
 					<li><a href="userHistory.php">我的发布</a></li>
 					<li class="spacer"></li>
-					<li><a href="message.php" id="last">消息记录</a></li>
-				</ul>
+					<li><a href="message.php" id="last">消息记录</a></li> </ul>
 			</div>	
 		</div>
 		<div class="header-large w">
@@ -60,7 +65,43 @@
 		</div>
 	</div>
 	<div class="content">
-		<div class="w"></div>
+		<div class="w">
+			<div class="issue-form">
+				<form method="post" action="issue.php">
+					<div class="form-line">
+						<label>标题:</label>	
+						<input type="text" name="head" placeholder="标题不得超过15字" class="item">
+					</div>
+					<div class="form-line">
+						<div class="class-p">
+							<div>
+								<h3>请选择信息分类</h3>
+								<label><input type="radio" name="学长火炬">学长火炬</label>
+								<label><input type="radio" name="二手书籍">二手书籍</label>
+								<label><input type="radio" name="二手数码">二手数码</label>
+								<label><input type="radio" name="电子diy">电子diy</label>
+							</div>
+						</div>
+						<div class="class-c">
+							<div></div>
+						</div>
+					</div>
+					<div class="form-line">
+						<label>价格:</label>	
+						<input type="text" name="price" placeholder="选填" class="item">
+					</div>
+					<div class="form-line">
+						<label>详情描述:</label>
+					</div>
+					<div class="form-line">
+						<textarea id="desc" name="desc"></textarea>
+					</div>
+					<div class="form-line">
+						<input type="submit" value="立即发布" class="btn-issue">
+					</form>
+				</form>	
+			</div>	
+		</div>
 	</div>
 	<div class="footer">
 		<div class="links">

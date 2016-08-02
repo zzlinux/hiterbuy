@@ -651,6 +651,44 @@ ul{
 }
 .form-bar span input{
 }
+/*///////////        issue-form    ///////////////////*/
+.issue-form{
+	margin:60px 0;
+}
+.issue-form .form-line{
+	width:650px;
+	min-height:45px;
+	margin:20px auto;
+	text-align:left;
+	
+}
+.issue-form .form-line>label{
+	text-align:center;
+	line-height:45px;
+	font-size:22px;
+}
+.issue-form .form-line> input{
+	width:563px;
+	height:32px;
+	margin-left:25px;
+	border:solid 2px #b61d1d;
+	font-size:15px;
+	line-height:32px;
+	border-radius:4px;
+}
+.issue-form .form-line h3{
+	margin:5px 0;
+}
+.issue-form .form-line>.btn-issue{
+	width:650px;
+	border:none;
+	height:45px;
+	border-radius:5px;
+	background:#b1191a;
+	color:white;
+	font-size:large;
+	margin-left:0;
+}
 /*///////////        content      /////////////////////*/
 .content >.w{
 	min-height:387px;
